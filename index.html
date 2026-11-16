@@ -16,5 +16,54 @@
     <title>Blank Canvas to Clean Layout: 5 Graphic Design Techniques</title>
   </head>
   <!-- body: This element contains all the visible content of the webpage, such as headings, text, lists, and images. -->
-  <body></body>
+  <body>
+    <!-- header: This groups the site title, author subtitle, and main page navigation at the top of the page. -->
+    <header id="top">
+      <!-- h1: This is the main heading of the entire webpage, used once at the top to establish the primary topic. -->
+      <h1>Blank Canvas to Clean Layout: 5 Graphic Design Techniques</h1>
+      <!-- p: This holds the subtitle and author credit directly below the main title. -->
+      <p>By John Brian B. Escol | A Practical Cheatsheet for Cleaner Visuals</p>
+
+      <!-- nav: This holds the main menu links. I used aria-labelledby pointing to the heading so screen readers announce the navigation landmark clearly. -->
+      <nav aria-labelledby="nav-heading">
+        <!-- h2: This labels the table of contents menu inside the navigation bar. -->
+        <h2 id="nav-heading">Page Contents</h2>
+        <!-- ul: This unordered list groups the navigation links together so screen readers announce how many items are in the menu. -->
+        <ul role="list"></ul>
+      </nav>
+    </header>
+
+    <!-- main: This contains the central unique content of the page, and a valid HTML document should only have one. -->
+    <main id="main">
+      <!-- section: This groups the introductory content together. The id attribute allows the navigation link to jump directly to this section. -->
+      <section id="introduction" aria-labelledby="intro-heading">
+        <!-- h2: This is the section heading for the introduction, sitting one level below h1. -->
+        <h2 id="intro-heading">Why Structure Matters on a Blank Canvas</h2>
+      </section>
+
+      <!-- article: This represents a self-contained, standalone piece of content, which I used for the 5-technique graphic design cheatsheet. -->
+      <article id="techniques">
+        <!-- h2: This is the main heading for the standalone cheatsheet article. -->
+        <h2>5 Essential Graphic Design Techniques</h2>
+      </article>
+
+      <!-- section: This groups the glossary of key layout terms into its own named region. -->
+      <section id="design-terms" aria-labelledby="terms-heading">
+        <!-- h2: This is the heading for the layout terms glossary section. -->
+        <h2 id="terms-heading">Key Layout Terms to Remember</h2>
+      </section>
+
+      <!-- aside: This holds supporting side content related to the main post, such as my quick pre-export checklist. -->
+      <aside id="pre-export-checklist">
+        <!-- h2: This is the heading for the supporting checklist sidebar. -->
+        <h2>Quick Pre-Export Checklist</h2>
+      </aside>
+    </main>
+
+    <!-- footer: This holds the closing page information at the bottom, including image credits, author contact details, and copyright. -->
+    <footer id="image-credits">
+      <!-- h2: This labels the footer section for image credits and author info. -->
+      <h2>Image Credits &amp; Author Information</h2>
+    </footer>
+  </body>
 </html>
