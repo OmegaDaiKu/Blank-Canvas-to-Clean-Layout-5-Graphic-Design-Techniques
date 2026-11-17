@@ -68,6 +68,135 @@
       <article id="techniques">
         <!-- h2: This is the main heading for the standalone cheatsheet article. -->
         <h2>5 Essential Graphic Design Techniques</h2>
+
+        <!-- section: Each subsection groups one individual design technique, its explanation, and its visual example. -->
+        <section id="technique-1">
+          <!-- h3: This is a subheading for the first technique inside the article, sitting one level below h2. -->
+          <h3>1. Start with Generous Whitespace</h3>
+          <p>
+            Beginners often treat empty space on a canvas like a gap that needs
+            to be filled, which quickly leads to overcrowded posters. Giving
+            text and visual elements wide outer margins and breathing room
+            reduces eye strain and immediately makes a layout look calmer and
+            more professional. Whenever I start a new layout, I set strict
+            margins first before placing a single word on the page.
+          </p>
+          <!-- figure: This groups the instructional graphic with its caption so they stay connected as one semantic unit. -->
+          <figure>
+            <!-- img: This displays the whitespace comparison graphic. The alt attribute describes the visual for screen readers, and width="600" keeps it readable without CSS. -->
+            <img
+              src="images/technique-1-whitespace.png"
+              alt="Cramped event flyer with edge-to-edge text compared next to a clean flyer with wide outer margins and clear spacing"
+              width="600"
+            />
+            <!-- figcaption: This provides a descriptive caption explaining Figure 1. -->
+            <figcaption>
+              Figure 1: Generous margins and padding prevent visual clutter and
+              guide the reader's focus.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section id="technique-2">
+          <!-- h3: Subheading for the second graphic design technique. -->
+          <h3>2. Build Visual Hierarchy Through Scale and Weight</h3>
+          <p>
+            If every piece of text on a graphic is the same size, the viewer
+            will not know where to look first. By making your main headline
+            significantly larger and bolder than your subheadings and body
+            details, you control the exact order in which people read your
+            information. Strong hierarchy ensures your main message lands within
+            the first two seconds of someone glancing at your design.
+          </p>
+          <figure>
+            <!-- loading="lazy": This attribute tells the browser to defer loading off-screen images until the user scrolls near them. -->
+            <img
+              src="images/technique-2-hierarchy.png"
+              alt="Annotated layout showing a large bold headline read first, a medium date subheading read second, and small body text read third"
+              width="600"
+              loading="lazy"
+            />
+            <figcaption>
+              Figure 2: Contrasting font sizes and weights establish a clear
+              reading order from top to bottom.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section id="technique-3">
+          <!-- h3: Subheading for the third graphic design technique. -->
+          <h3>3. Limit Your Color Palette for High Contrast</h3>
+          <p>
+            Using too many bright colors at once creates visual noise and makes
+            text difficult to read from a distance. Sticking to a minimal
+            monochrome base—such as deep charcoal and off-white—paired with a
+            single accent color keeps the mood cohesive and sharp. High contrast
+            between background and text is one of the fastest ways to make any
+            layout accessible and readable.
+          </p>
+          <figure>
+            <img
+              src="images/technique-3-contrast.png"
+              alt="Low-contrast light gray text on a white background compared next to high-contrast charcoal text on off-white with a single orange accent"
+              width="600"
+              loading="lazy"
+            />
+            <figcaption>
+              Figure 3: A restrained, high-contrast color palette keeps
+              typography crisp and legible.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section id="technique-4">
+          <!-- h3: Subheading for the fourth graphic design technique. -->
+          <h3>4. Snap Elements to an Invisible Grid</h3>
+          <p>
+            Placing text boxes and images by eye almost always leaves subtle
+            misalignments that make a design feel unfinished. Turning on
+            gridlines and snapping the edges of your headlines, paragraphs, and
+            photos to a shared vertical axis creates instant visual order. Even
+            complex publication spreads feel balanced when every element shares
+            a consistent alignment line.
+          </p>
+          <figure>
+            <img
+              src="images/technique-4-grid.png"
+              alt="Layout canvas with vertical alignment guides lining up the left edges of the headline, paragraph block, and photo"
+              width="600"
+              loading="lazy"
+            />
+            <figcaption>
+              Figure 4: Aligning elements along shared grid axes creates
+              structure and balance.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section id="technique-5">
+          <!-- h3: Subheading for the fifth graphic design technique. -->
+          <h3>5. Pair Only Two Complementary Fonts</h3>
+          <p>
+            Mixing three or four decorative fonts in one project makes a design
+            look chaotic and distracting. A reliable rule is to pair one bold
+            display or sans-serif font for headlines with one clean,
+            easy-to-read font for body paragraphs. This simple constraint keeps
+            your typography consistent across multi-page documents,
+            infographics, and event announcements.
+          </p>
+          <figure>
+            <img
+              src="images/technique-5-typography.png"
+              alt="Bold geometric sans-serif title font paired with a clean neutral body font"
+              width="600"
+              loading="lazy"
+            />
+            <figcaption>
+              Figure 5: Limiting a layout to two complementary typefaces
+              maintains clarity and consistency.
+            </figcaption>
+          </figure>
+        </section>
       </article>
 
       <!-- section: This groups the glossary of key layout terms into its own named region. -->
@@ -124,6 +253,26 @@
     <footer id="image-credits">
       <!-- h2: This labels the footer section for image credits and author info. -->
       <h2>Image Credits &amp; Author Information</h2>
+      <p>
+        All five instructional layout graphics (Figures 1–5) were created
+        originally by John Brian B. Escol (2026).
+      </p>
+      <p>
+        Further reading:
+        <!-- a: This external link points to Canva's design guide, using descriptive link text instead of "click here". -->
+        <a
+          href="https://www.canva.com/learn/design-elements-principles/"
+          target="_blank"
+          rel="noopener external"
+          >Canva Guide to Design Elements and Principles (opens in a new tab)</a
+        >.
+      </p>
+      <!-- address: This semantic element provides contact information for the author of the article. -->
+      <address>
+        Written by John Brian B. Escol —
+        <a href="mailto:john.escol@carsu.edu.ph">Email the author</a>
+      </address>
+      <p>&copy; 2026 John Brian B. Escol. All rights reserved.</p>
     </footer>
   </body>
 </html>
