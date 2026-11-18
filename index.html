@@ -17,6 +17,9 @@
   </head>
   <!-- body: This element contains all the visible content of the webpage, such as headings, text, lists, and images. -->
   <body>
+    <!-- a (skip link): This anchor link at the top allows keyboard users to jump directly to #main without tabbing through the menu links first. -->
+    <a href="#main">Skip to main content</a>
+
     <!-- header: This groups the site title, author subtitle, and main page navigation at the top of the page. -->
     <header id="top">
       <!-- h1: This is the main heading of the entire webpage, used once at the top to establish the primary topic. -->
@@ -29,7 +32,20 @@
         <!-- h2: This labels the table of contents menu inside the navigation bar. -->
         <h2 id="nav-heading">Page Contents</h2>
         <!-- ul: This unordered list groups the navigation links together so screen readers announce how many items are in the menu. -->
-        <ul role="list"></ul>
+        <ul role="list">
+          <!-- li + a: Each list item holds an anchor link that jumps to the matching section id and uses descriptive destination text instead of "click here". -->
+          <li>
+            <a href="#introduction">Why Structure Matters on a Blank Canvas</a>
+          </li>
+          <li>
+            <a href="#techniques">5 Essential Graphic Design Techniques</a>
+          </li>
+          <li><a href="#design-terms">Key Layout Terms to Remember</a></li>
+          <li>
+            <a href="#pre-export-checklist">Quick Pre-Export Checklist</a>
+          </li>
+          <li><a href="#image-credits">Image Credits and Author Info</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -273,6 +289,8 @@
         <a href="mailto:john.escol@carsu.edu.ph">Email the author</a>
       </address>
       <p>&copy; 2026 John Brian B. Escol. All rights reserved.</p>
+      <!-- a (back to top): This internal anchor link returns the user back to the #top header id. -->
+      <p><a href="#top">Back to top of the page</a></p>
     </footer>
   </body>
 </html>
